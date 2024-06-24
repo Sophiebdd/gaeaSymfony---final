@@ -1,0 +1,7 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Tableau de users{% endblock %}
+
+{% block body %}
+    <div {{ react_component('Index', {users: users}) }}></div>
+{% endblock %}
